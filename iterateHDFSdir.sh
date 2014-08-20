@@ -27,7 +27,6 @@ for (( i=$DIR_COUNT-1; i>0; i-- ))
 
 #Ignore directory/filename which are unwanted 
  if [ "$BASE_NAME" != ".Trash" ] && [ "$BASE_NAME" != ".staging" ] ; then
-  #FILE_NAME contains the filename inside the directory we specify Ex:/user/puneetha/inputdir
   FILE_NAME=$BASE_NAME
   
   #Perform any operation here
